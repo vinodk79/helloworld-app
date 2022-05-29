@@ -16,5 +16,5 @@ spec:
          app: node
     spec:
       containers:
-      - image: farhanluckali/node-helloworld:2022-05-28--29-56
+      - image: vinodk79/helloworld-app:latest
         name: node

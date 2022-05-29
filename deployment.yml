@@ -18,3 +18,4 @@ spec:
       containers:
       - image: vinodk79/helloworld-app:latest
         name: node
+        imagePullPolicy: Always

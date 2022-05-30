@@ -15,6 +15,8 @@ Here are the steps to deploy it:
 4. Once the changes have been made, click "commit changes" in bottom 
 5. Now it will trigger a workflow run in "Actions" section 
 6. Click the latest workflow run and wait until all the taks have been completed.
-7. Once All the tasks are completed , you can view your changes by accessing the Application URL below.
+7. Once the workflow is passed, please exceute "kubectl get service" on your terminal
+8. copy the URL under external ip for my-app1 and append it with port number 4001
+9. paste the complete URL in your browser to view your application.
 
-Application URL: http://ab4185e99876b47d7a94872b5e9e96b1-424315540.ca-central-1.elb.amazonaws.com:4001/
+ Example Application URL: http://ab4185e99876b47d7a94872b5e9e96b1-424315540.ca-central-1.elb.amazonaws.com:4001/
